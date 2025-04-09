@@ -49,6 +49,19 @@ git clone https://github.com/yourusername/leukemia-classification.git
 cd leukemia-classification
 ```
 
+### 2. Install Dependencies
+```pip install -r requirements.txt```
+
+### 3. Run the training script
+```python train.py```
+
+### 4. Optional: Streamlit deployment
+```
+pip install streamlit
+npm install -g localtunnel
+streamlit run app.py
+````
+
 Metric	Value
 Train Accuracy	98.4%
 Test Accuracy	96.2%
